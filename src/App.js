@@ -14,9 +14,9 @@ export default function App() {
      <button onClick={
        ()=>setcount(count - 1)
     }>
-      update counter
+      Countdown
       </button>
-      <button onClick={()=>setMorning(!isMorning)}>update Day</button>
+      <button onClick={()=>setMorning(!isMorning)}>Greetings</button>
     </div>
   );
 }
